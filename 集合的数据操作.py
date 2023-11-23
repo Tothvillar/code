@@ -1,0 +1,14 @@
+'''获取集合中的交集用intersection，&
+获取集合中的并集用union,|'''
+a={'nan','so',132,1,23}
+b={'nan',123,1,'yuan',999}
+print(a.intersection(b))
+print(a.union(b))
+print(a&b)
+print(a|b)
+'''差集操作用difference,-'''
+print(a.difference(b))
+print(a-b)
+#对称差集用symmetric_difference,^
+print(a.symmetric_difference(b))
+print(a^b)
